@@ -12,7 +12,7 @@ body {
     width: min(90vw, 800px); 
     margin: auto;
     background: white;
-    height: 500px;
+    height: 800px;
     border-radius: 0.5rem;
 }
 
@@ -27,12 +27,16 @@ h1 {
     font-family: 'Poppins', sans-serif;
 }
 
+.main {
+    width: 100%;
+}
+
 input {
     margin: auto;
     display: block;
     margin-bottom: 1rem;
-    padding: 0.7rem;
-    width: 70%;
+    padding: 0.8rem;
+    width: 80%;
     border: 1px solid #C5CED4;
     border-radius: 0.2rem;
     font-family: 'Poppins', sans-serif;
@@ -41,9 +45,10 @@ input {
 button {
     margin: auto;
     display: block;
-    width: 70%;
+    width: 80%;
     padding: 1rem;
-    margin-top: 5rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
     cursor: pointer;
     border: none;
     background: #581BA8;
@@ -51,5 +56,14 @@ button {
     font-family: 'Poppins', sans-serif;
 }
 
+p {
+    background: #F2F2FD;
+    margin: auto;
+    /*display: block;*/
+    color: black;
+    padding: 0.7rem;
+    font-family: 'Poppins', sans-serif;
+    width: 80%;
+}
 
 
